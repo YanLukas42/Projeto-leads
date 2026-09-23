@@ -1,0 +1,67 @@
+# ==========================================
+# AMBIENTES VIRTUAIS & DEPENDÊNCIAS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# PYTHON BYTECODE & CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# SEGREDOS, CREDENCIAIS E DADOS CONFIDENCIAIS
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# ==========================================
+# LOGS E ARQUIVOS TEMPORÁRIOS DE EXECUÇÃO
+# ==========================================
+*.log
+logs/
+*.pid
+
+# ==========================================
+# DADOS DE LEADS, HISTÓRICOS E OUTPUTS (PRIVACIDADE)
+# ==========================================
+*.csv
+*.tsv
+*.xlsx
+leads_output/
+*/output/
+output/
+historico_*.json
+respostas_recebidas.json
+
+# ==========================================
+# SESSÕES DE NAVEGADORES / AUTOMAÇÃO
+# ==========================================
+*.session
+chrome_profile/
+.playwright/
+
+# ==========================================
+# IDES, EDITORES E ARQUIVOS DE SISTEMA
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
